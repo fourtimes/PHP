@@ -1,1 +1,2 @@
-https://linuxhint.com/installing_php_myadmin_ubuntu/
+- https://linuxhint.com/installing_php_myadmin_ubuntu/
+- https://stackoverflow.com/questions/24680480/uninstalled-phpmyadmin-on-linux-server-now-apache-restart-gives-this-error
