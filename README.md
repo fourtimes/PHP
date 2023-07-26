@@ -29,6 +29,3 @@ sudo a2enconf phpmyadmin
 sudo systemctl reload apache2
 ```
 
-
-Password@1234567890
-Sharik@12345
