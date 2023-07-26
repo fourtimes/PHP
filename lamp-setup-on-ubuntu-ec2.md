@@ -1,8 +1,8 @@
 LAMP Setup for ubuntu:
 ---------------------------------
-
+```
 LAMP - Linux, Apache2, MySQL, PHP
-
+```
 php installation
 ---------------------
 
