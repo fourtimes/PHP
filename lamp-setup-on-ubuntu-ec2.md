@@ -12,7 +12,7 @@ sudo apt install php libapache2-mod-php php-mcrypt php-mysql
 ---
 vsftpd
 -------
-_Firstly , we have to implement the vsftpd installation and configuration. we need to follow the below command,_
+_Firstly , we have to implement the vsftpd installation and configuration. we need to follow the below command_
 
 ```sh
 # Install the vsftpd packages
