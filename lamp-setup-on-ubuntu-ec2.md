@@ -151,10 +151,6 @@ OUTPUT:
 
 **phpmyadmin** - _http://(your-public-ip)/phpmyadmin_
 ![Image](https://github.com/januo-org/proof-of-concepts/assets/91359308/85435b84-3869-4e52-a8da-2caa26ee5200)
-
-**Apache2 **
-![Image](https://github.com/januo-org/proof-of-concepts/assets/91359308/fa42cd7a-270c-4f78-9ea5-77121674b8ca)
-
 ---
 
 ## Note:
