@@ -112,8 +112,8 @@ _Then we need to create a configuration file of apache2_
 
         ServerAdmin webmaster@januo.io
 
-        # domain name
-        Servername  api.januo.io
+        # domain name - if we use a domain, enable the below line and change the domain name as per your wish. without domain, we have to use pulic ip for accessing.
+        # Servername  (domain-name)
         # mention the document root 
         DocumentRoot /var/www/html/demo
 
