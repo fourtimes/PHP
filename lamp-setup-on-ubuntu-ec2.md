@@ -12,7 +12,7 @@ sudo apt install php libapache2-mod-php php-mcrypt php-mysql
 ---
 vsftpd
 -------
-Firstly , we have to implement the vsftpd installation and configuration. we need to follow the below command,
+_Firstly , we have to implement the vsftpd installation and configuration. we need to follow the below command,_
 
 ```sh
 # Install the vsftpd packages
@@ -34,7 +34,7 @@ echo "local_root=/var/www/html/demo" | sudo tee -a /etc/vsftpd/users/ashli
 # restrict the users at root level
 echo "ashli" | sudo tee /etc/vsftpd.chroot_list
 ```
-Add the configuration file for vstfpd
+_Add the configuration file for vstfpd_
 ```sh
 # sudo vim /etc/vsftpd.conf
 listen=YES
@@ -74,7 +74,7 @@ port_enable=YES
 pasv_address=3.6.88.147 #aws-instance-ip
 pasv_addr_resolve=NO
 ```
-After creating the configuration file, we need to start the service and check the status of the service
+_After creating the configuration file, we need to start the service and check the status of the service_
 ```sh
 #  start the vsftpd service
 sudo systemctl start vsftpd
