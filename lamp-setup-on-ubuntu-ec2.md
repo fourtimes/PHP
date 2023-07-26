@@ -155,7 +155,7 @@ OUTPUT:
 
 ## Note:
 
-_Suppose if we need to install all the LAMP using single command. please use the below command_
+_Suppose if we need to install the LAMP using single command. please use the below command_
 ```sh
 sudo apt update
 sudo apt install apache2 php php-gd php-zip php-mysql mysql-server -y
