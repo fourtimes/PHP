@@ -1,7 +1,8 @@
-## How to access remote MySQL database in local phpMyAdmin
-
-#### `Remote Process`
-_Firstly, create the remote mysql database(public) in aws (ec2)_
+### How to access remote MySQL database in local phpMyAdmin
+---
+### Remote Process
+---
+_`Firstly, create the remote mysql database(public) in aws (ec2)`_
 ```sh
 # install the mysql packages
 sudo apt update
@@ -16,7 +17,7 @@ GRANT ALL PRIVILEGES ON *.* to 'ashli'@'%';
 FLUSH PRIVILEGES;
 ```
 
-_Configure MySQL for remote connections_
+_`Configure MySQL for remote connections`_
 ```sh
 # Log into your MySQL database server and open the configuration file with the command:
 sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
@@ -28,9 +29,9 @@ bind-address = 0.0.0.0
 sudo systemctl restart mysql
 ```
 ---
-#### `local process`
-
-_Then, we have to install the phpmyadmin in my local_
+### Localhost process
+---
+_`Then, we have to install the phpmyadmin in my local`_
 
 ```sh
 sudo apt update
@@ -39,13 +40,14 @@ sudo apt install apache2 php php-gd php-zip php-mysql -y
 sudo service apache2 start
 sudo service apache2 status
 ```
-_phpmyadmin configuration:_
+_`phpmyadmin configuration:`_
 
 - firstly, we have to download a phpmyadmin configuation file in my local using this link - https://www.phpmyadmin.net/
 - then, we have to extract the zip file and rename the filename like phpmyadmin
 - Then, use vsftpd to push the phpmyadmin file to the apache2 document root (/var/www/html)
+  
 
-_configure the remote database details in my local phpmyadmin file_
+_`configure the remote database details in my local phpmyadmin file`_
 ```sh
 # sudo vim /etc/phpmyadmin/config.inc.php
 
@@ -62,6 +64,7 @@ $cfg['Servers'][$i]['password']      = 'Password@123';
 $cfg['Servers'][$i]['AllowNoPassword'] = TRUE;
 
 ```
+---
 OUTPUT
 -------
 
@@ -70,6 +73,7 @@ OUTPUT
 ![image](https://github.com/fourtimes/php/assets/91359308/abed7090-29ba-4096-8836-939f6b5dce38)
 
 **Check the remote db details match into the phpmyadmin - if it is matched the configuration correctly configured.**
+
 ![image](https://github.com/fourtimes/php/assets/91359308/fe7a6252-c6f8-44ea-bbae-cb9858286549)
 
 
