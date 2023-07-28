@@ -165,9 +165,13 @@ OUTPUT
 
 ![image](https://github.com/fourtimes/php/assets/91359308/ff72a39b-8519-40bb-9eff-6f0224abe92e)
 
+![image](https://github.com/fourtimes/php/assets/91359308/6ee4e8f3-d569-4116-878d-24704d136782)
+
+![image](https://github.com/fourtimes/php/assets/91359308/5f7d70c5-2474-438d-806a-f9cd66a3fb09)
+
 ![image](https://github.com/fourtimes/php/assets/91359308/6ee42a18-ebae-47b4-ae03-59cf117f7195)
 
-**Check the remote db details match into the remote phpmyadmin - if it is matched the configuration correctly configured.**
+**`Check the remote db details match into the remote phpmyadmin - if it is matched the configuration correctly configured.`**
 ![image](https://github.com/fourtimes/php/assets/91359308/81fdee7d-bbb5-4863-a2f0-79349bcb96dd)
 
 ![image](https://github.com/fourtimes/php/assets/91359308/85a313cf-7970-4c57-b72b-6a194527fe7a)
