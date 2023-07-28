@@ -53,6 +53,8 @@ _`configure the remote database details in my local phpmyadmin file`_
 cd /var/www/html/demo/phpmyadmin
 ll | grep config
 mv config.sample.inc.php config.inc.php
+```
+```sh
 # sudo vim /var/www/html/demo/phpmyadmin
 
 $i++;
