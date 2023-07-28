@@ -102,7 +102,7 @@ _`phpmyadmin configuration:`_
 
 ### MySQL remote server (private)
 ---
-_`Firstly, create the remote mysql database(public) in aws (ec2)`_
+_`Firstly, create the remote mysql database`_
 ```sh
 # install the mysql packages
 sudo apt update
