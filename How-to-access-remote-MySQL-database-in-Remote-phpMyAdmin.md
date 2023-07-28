@@ -1,6 +1,9 @@
-### `How to access remote MySQL database in Remote phpMyAdmin`
-### vsftpd
----
+## `How to access remote MySQL database in Remote phpMyAdmin`
+
+### Architecure
+![image](https://github.com/fourtimes/php/assets/91359308/0bba263a-860c-414a-ac9d-0f565ba49648)
+
+### Working process :
 vsftpd
 -------
 _Firstly , we have to implement the vsftpd installation and configuration. we need to follow the below command_
