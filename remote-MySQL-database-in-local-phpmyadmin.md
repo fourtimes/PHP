@@ -68,13 +68,13 @@ $cfg['Servers'][$i]['AllowNoPassword'] = TRUE;
 OUTPUT
 -------
 
-![image](https://github.com/fourtimes/php/assets/91359308/ea0c6114-5b1f-4ab5-ac6a-53b7b1c65a61)
 
-![image](https://github.com/fourtimes/php/assets/91359308/abed7090-29ba-4096-8836-939f6b5dce38)
 
-**Check the remote db details match into the phpmyadmin - if it is matched the configuration correctly configured.**
-
-![image](https://github.com/fourtimes/php/assets/91359308/fe7a6252-c6f8-44ea-bbae-cb9858286549)
+![image](https://github.com/fourtimes/php/assets/91359308/f09a578f-a386-4a64-9d13-f91a2add4f69)
 
 ![image](https://github.com/fourtimes/php/assets/91359308/e509fb53-5de5-42f9-bd12-5feb05c32baf)
+
+**Check the remote db details match into the phpmyadmin - if it is matched the configuration correctly configured.**
+![image](https://github.com/fourtimes/php/assets/91359308/a041d6b4-8201-427b-90b9-4503bf91d157)
+
 
