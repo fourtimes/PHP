@@ -100,7 +100,7 @@ _`phpmyadmin configuration:`_
 `after the above phpmyadmin setup, we will get this page`
 ![image](https://github.com/fourtimes/php/assets/91359308/e0fb7f22-b1ab-4e3a-ad2b-0364c8a7e8b6)
 
-### MySQL server (private)
+### MySQL remote server (private)
 ---
 _`Firstly, create the remote mysql database(public) in aws (ec2)`_
 ```sh
@@ -127,10 +127,11 @@ bind-address = 0.0.0.0
 # Restart the MySQL service with:
 sudo systemctl restart mysql
 ```
-output: after the above mysql setup, we will get this output.
+
+**output:** `after the above mysql setup, we will get this output.`
 ![image](https://github.com/fourtimes/php/assets/91359308/51d4574e-3323-44a5-86a5-3e318e4c601c)
 
-_`configure the remote database details in my remote phpmyadmin file`_
+_configure the remote database details in my remote phpmyadmin file_
 ```sh
 # find the phpmyadmin configuration file
 cd /var/www/html/demo/phpmyadmin
@@ -162,8 +163,6 @@ OUTPUT
 ![image](https://github.com/fourtimes/php/assets/91359308/ff72a39b-8519-40bb-9eff-6f0224abe92e)
 
 ![image](https://github.com/fourtimes/php/assets/91359308/6ee42a18-ebae-47b4-ae03-59cf117f7195)
-
-
 
 **Check the remote db details match into the remote phpmyadmin - if it is matched the configuration correctly configured.**
 ![image](https://github.com/fourtimes/php/assets/91359308/81fdee7d-bbb5-4863-a2f0-79349bcb96dd)
