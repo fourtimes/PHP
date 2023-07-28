@@ -49,10 +49,14 @@ _`phpmyadmin configuration:`_
 
 _`configure the remote database details in my local phpmyadmin file`_
 ```sh
-# sudo vim /etc/phpmyadmin/config.inc.php
+# find the phpmyadmin configuration file
+cd /var/www/html/demo/phpmyadmin
+ll | grep config
+mv config.sample.inc.php config.inc.php
+# sudo vim /var/www/html/demo/phpmyadmin
 
 $i++;
-$cfg['Servers'][$i]['host']          = 'ec2-3-110-186-140.ap-south-1.compute.amazonaws.com'; # Public IPv4 DNS Name
+$cfg['Servers'][$i]['host']          = 'ec2-3-110-186-140.ap-south-1.compute.amazonaws.com'; # we should configure `Public IPv4 DNS Name` or `ip address`
 $cfg['Servers'][$i]['port']          = '3306';
 $cfg['Servers'][$i]['socket']        = '';
 $cfg['Servers'][$i]['connect_type']  = 'tcp';
@@ -68,8 +72,7 @@ $cfg['Servers'][$i]['AllowNoPassword'] = TRUE;
 OUTPUT
 -------
 
-
-
+http://(you-local-ip)/phpmyadmin
 ![image](https://github.com/fourtimes/php/assets/91359308/f09a578f-a386-4a64-9d13-f91a2add4f69)
 
 ![image](https://github.com/fourtimes/php/assets/91359308/e509fb53-5de5-42f9-bd12-5feb05c32baf)
