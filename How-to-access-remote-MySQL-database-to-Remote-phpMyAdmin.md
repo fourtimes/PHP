@@ -1,4 +1,4 @@
-# `How to access remote MySQL database in Remote phpMyAdmin - ubuntu`
+# `How to access remote MySQL database to Remote phpMyAdmin - ubuntu`
 
 ### Architecure
 ![image](https://github.com/fourtimes/php/assets/91359308/0bba263a-860c-414a-ac9d-0f565ba49648)
