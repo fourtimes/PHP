@@ -76,15 +76,9 @@ pasv_addr_resolve=NO
 ```
 _After creating the configuration file, we need to start the service and check the status of the service_
 ```sh
-#  start the vsftpd service
 sudo systemctl start vsftpd
-
-#  status of vsftpd service
 sudo systemctl status vsftpd
-
-# verify the configuration
 sudo ss -tulpn | grep vsftpd
-
 ```
 ---
 
