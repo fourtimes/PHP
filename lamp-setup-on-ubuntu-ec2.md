@@ -156,4 +156,4 @@ sudo apt update
 sudo apt install apache2 php php-gd php-zip php-mysql mysql-server -y
 ```
 
-reference - https://www.youtube.com/watch?v=kHZKI27jFnc&t=399s
+Reference - https://www.youtube.com/watch?v=kHZKI27jFnc&t=399s
