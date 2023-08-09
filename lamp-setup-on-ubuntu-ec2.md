@@ -101,6 +101,7 @@ cd /etc/apache2/sites-available/demo
 pwd
 ```
 _Then we need to create a configuration file of apache2_
+`sudo vim demo.conf`
 ```sh
 <VirtualHost *:80>
 
