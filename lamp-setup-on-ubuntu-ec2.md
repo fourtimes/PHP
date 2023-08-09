@@ -125,6 +125,23 @@ sudo apt install mysql -y
 sudo service mysql start
 sudo service mysql enable
 sudo service mysql status
+
+# create the mysql user to connect the phpmy admin
+sudo mysql
+CREATE USER 'ashli'@'%' IDENTIFIED BY 'Password@123';
+GRANT ALL PRIVILEGES ON *.* to 'ashli'@'%';
+FLUSH PRIVILEGES;
+```
+_`Configure MySQL for remote connections`_
+```sh
+# Log into your MySQL database server and open the configuration file with the command:
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+
+# Change that line instead of bind-address = 127.0.0.1:
+bind-address = 0.0.0.0
+
+# Restart the MySQL service with:
+sudo systemctl restart mysql
 ```
 
 phpmyadmin configuration:
