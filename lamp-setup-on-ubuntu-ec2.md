@@ -1,6 +1,6 @@
 LAMP Setup for ubuntu:
 ---------------------------------
-```
+```sh
 LAMP - Linux, Apache2, MySQL, PHP
 ```
 php installation
