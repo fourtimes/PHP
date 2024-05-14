@@ -1,4 +1,4 @@
-# PHP-FPM configuration with `socket`
+# PHP-FPM configuration with `socket` using nginx
 
 _Install nginx and php-fpm_
 ```sh
@@ -69,7 +69,7 @@ http://server_domain_or_IP
 ```
 <img width="1460" alt="image" src="https://github.com/fourtimes/PHP/assets/91359308/ba21b1d9-e5b8-414e-b221-c3b247f4a240">
 
-# PHP-FPM configuration with `port`
+# PHP-FPM configuration with `port` using nginx
 
 _Install nginx and php-fpm_
 ```sh
