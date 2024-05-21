@@ -83,7 +83,7 @@ CREATE USER 'ashli'@'%' IDENTIFIED BY 'Password@123';
 GRANT ALL PRIVILEGES ON *.* to 'ashli'@'%';
 FLUSH PRIVILEGES;
 ```
-_8.Put the source code to the document root. And change the required changes to that code._
+_8. Put the source code to the document root. And change the required changes to that code._
 
 _9. Check the domain in the browser._
 
