@@ -7,6 +7,14 @@ sudo apt update
 sudo apt install php8.1-fpm
 sudo systemctl start php8.1-fpm
 sudo systemctl enable php8.1-fpm
+
+sudo apt install -y apache2 awscli openssl php php-common php-mbstring  php-xml php8.1-mysql php-gd  php8.1-common  php-curl php-cli php8.1-opcache php-zip wget unzip
+sudo a2enmod ssl
+sudo   systemctl restart apache2
+
+sudo apt install php php-pear php-dev libmcrypt-dev -y
+which pecl
+sudo pecl install mcrypt
 ```
 _2. Install nginx_
 ```sh
